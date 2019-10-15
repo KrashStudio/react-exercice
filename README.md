@@ -5,7 +5,8 @@
 Le projet consiste à créer un moteur de recherche/annuaire pour super-heroes utilisant l'API de Marvel.
 
 Il te faudra donc une clé d'API que tu peux créer sur le site de marvel: https://developer.marvel.com/
-Le documentation de l'API se trouve ici https://developer.marvel.com/documentation/getting_started
+
+Une fois connecté, la documentation de l'API se trouve ici https://developer.marvel.com/docs
 
 ### L'exercice est le suivant: 
 
