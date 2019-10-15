@@ -1,4 +1,4 @@
-# react-exercice
+# Marvel Super-Heroes Search
 
 ## Intro
 
