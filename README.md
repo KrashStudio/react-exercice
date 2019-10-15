@@ -33,4 +33,5 @@ Pour cet exercice:
 - Toute optimisation est bonne à prendre
 - Bonus s'il y a du CSS
 - Tu devras nous livrer le code source de l'exercice
+- Le endpoint de l'API pour la recherche est `v1/public/characters`
 
