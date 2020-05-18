@@ -23,7 +23,7 @@ La base de données de l'Empire est accessible [à cette URL](https://swapi.dev/
 
 
 #### Optionnel
- - L'utilisation d'[HAPI](https://hapi.dev/) car les développeur de la rébélion l'apprécie.
+ - L'utilisation d'[HAPI](https://hapi.dev/) car les développeur de la rébellion l'apprécie.
 
 
 ### Etape 2
