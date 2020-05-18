@@ -7,36 +7,53 @@ Il nous faut donc un moyen de contrecarrer leurs plans.
 
 C'est pourquoi nous avons décidé de vous confier une mission de la plus haute importance!
 
-Il s'agira, pour le bien de la rébellion de créer une interface nous permettant de rechercher dans la banque de données de l'empire.  <br/>
-L'un de nos espion a donné sa vie afin que nous puissions accéder à ces informations.
+Il s'agira, pour le bien de la rébellion, de créer une interface nous permettant de rechercher dans la banque de données de l'Empire.  <br/>
+L'un de nos espions a donné sa vie afin que nous puissions accéder à ces informations.
  
 La base de données de l'Empire est accessible [à cette URL](https://swapi.dev/).
 
 ## Objectifs de mission
 
 ### Etape 1
-Création d'un back-end en Node permettant de récupérer les données de SWAPI <br />
-Il vous faudra implémenter un endpoint pour faire une recherche globale, incluant toutes les ressources. <br />
-Elle devra prenndre en compte ce que la deuxième étape va demander. <br />
-Un autre endpoint pourrait être requis pour les films. <br />
-L'utilisation d'[HAPI](https://hapi.dev/) est un plus.
+
+#### Obligatoire
+ - Création d'un back-end en Node permettant de récupérer les données de SWAPI <br />
+   - Implémentation d'un endpoint recherchant tout type de données sur la base de données.
+   - L'API devra s'adapter aux besoins de la deuxième étape.
+
+
+#### Optionnel
+ - L'utilisation d'[HAPI](https://hapi.dev/) car les développeur de la rébélion l'apprécie.
+
 
 ### Etape 2
-Création d'un front-end en ReactJS permettant de rechercher facilement sur le back-end créé au préalable. <br/>
-Vous devrez implémenter des filtres, à savoir:
- - Un choix des films dans lesquels la ressource est impliquée.
+#### Obligatoire
+ - Création d'un front-end en ReactJS permettant de rechercher facilement sur le back-end créé au préalable. <br/>
+   - Création d'un champ de recherche
+   - Création d'un affichage par liste des résultats avec le nom et l'image
+   - Création d'une fiche détaillant le résultat où sera présentée les informations de base
 
-Chaque ressource doit être affichée avec son image, et au clic ouvrir une fiche un peu plus détaillée.
+#### Optionnel
+ - Faire des fiches ultra détaillées
+   - Afficher des fiches differentes en fonction du type de donnée
+ - Implémentation d'un router
+   - Le router doit permettre d'accèder à n'importe quelle fiche
+   - Il peut permettre d'accèder directement au résultat d'une recherche
+ - Implémentation d'un système de filtre
+   - Mettre en place un système de filtre par type de donnée (personnage, vaisseau, ...)
+ - Utilisation de Redux
+ - Utilisation du fonctionnel et de l'immutabilité
 
-Dans le cadre de notre collaboration avec nos alliés Wookies, il serait préférable de donner
-la possibilité de traduire les résultats dans la langue de nos amis poilus.
+#### Bonus
+Malgré les tensions entre l'Empire et le peuple Wookie, il est étonnant de trouver dans leur base de données un moyen de traduire dans cette langue.
 
-Cependant vous aurez quelques contraintes:
- - Utilisation d'un router pour la navigation entre les différentes ressources.
- - Utilisation de redux, parce-que pourquoi pas.
+ - Permettre d'afficher les résultats en Wookie
+
 
 Attention, l'utilisation de [swapi-node](https://www.npmjs.com/package/swapi-node) est prohibée, car l'application est surveillée par l'empire. <br/>
-Afin que le service de renseignement de l'alliance puisse vérifier l'intégrité de votre code, il sera nécessaire de le mettre sur un repo git.
+
+
+Afin que le service de renseignements de l'alliance puisse vérifier l'intégrité de votre code, il sera nécessaire de le rendre disponible sur un repo git accessible.
 
 ## Conclusion
 Toute l'alliance Rebelle compte sur la réussite de cette mission.
