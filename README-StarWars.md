@@ -23,6 +23,9 @@ La base de données de l'Empire est accessible [à cette URL](https://swapi.dev/
 
 
 #### Optionnel
+ - Système d'authentification qui doit vérifier
+    - l'utilisateur: `Luke`
+    - password: `DadSucks`
  - L'utilisation d'[HAPI](https://hapi.dev/) car les développeur de la rébellion l'apprécie.
 
 
@@ -41,6 +44,7 @@ La base de données de l'Empire est accessible [à cette URL](https://swapi.dev/
    - Il peut permettre d'accèder directement au résultat d'une recherche
  - Implémentation d'un système de filtre
    - Mettre en place un système de filtre par type de donnée (personnage, vaisseau, ...)
+ - Mise en place d'un système d'authentification avec l'API
  - Utilisation de Redux
  - Utilisation du fonctionnel et de l'immutabilité
  - Un debounce pour la recherche
