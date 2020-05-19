@@ -43,12 +43,13 @@ La base de données de l'Empire est accessible [à cette URL](https://swapi.dev/
    - Mettre en place un système de filtre par type de donnée (personnage, vaisseau, ...)
  - Utilisation de Redux
  - Utilisation du fonctionnel et de l'immutabilité
+ - Un debounce pour la recherche
  - Mise en place de CSS modules
 
 #### Bonus
-Malgré les tensions entre l'Empire et le peuple Wookie, il est étonnant de trouver dans leur base de données un moyen de traduire dans cette langue.
+Malgré les tensions entre l'Empire et le peuple Wookiee, il est étonnant de trouver dans leur base de données un moyen de traduire dans cette langue.
 
- - Permettre d'afficher les résultats en Wookie
+ - Permettre d'afficher les résultats en Wookiee
 
 
 Attention, l'utilisation de [swapi-node](https://www.npmjs.com/package/swapi-node) est prohibée, car l'application est surveillée par l'empire. <br/>
