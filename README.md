@@ -1,37 +1,67 @@
-# Marvel Super-Heroes Search
+# Star Wars Rebels Alliance Search System
+Bienvenue dans l'Alliance Rebelle jeune Padawan!<br/>
+Nous avons besoin de personnes motivées pour défaire l'Empire.
 
-## Intro
+Les espions du seigneur Vader sont partout! <br/>
+Il nous faut donc un moyen de contrecarrer leurs plans.
 
-Le projet consiste à créer un moteur de recherche/annuaire pour super-heroes utilisant l'API de Marvel.
+C'est pourquoi nous avons décidé de vous confier une mission de la plus haute importance!
 
-Il te faudra donc une clé d'API que tu peux créer sur le site de marvel: https://developer.marvel.com/
+Il s'agira, pour le bien de la rébellion, de créer une interface nous permettant de rechercher dans la banque de données de l'Empire.  <br/>
+L'un de nos espions a donné sa vie afin que nous puissions accéder à ces informations.
+ 
+La base de données de l'Empire est accessible [à cette URL](https://swapi.dev/).
 
-Une fois connecté, la documentation de l'API se trouve ici https://developer.marvel.com/docs
+## Objectifs de mission
 
-### L'exercice est le suivant: 
+### Etape 1
 
-Créer une page dans laquelle se trouve un input de type texte. 
-Cet input permettera de rechercher des super-heroes dès que je commence à taper au clavier. 
+#### Obligatoire
+ - Création d'un back-end en Node permettant de récupérer les données de SWAPI <br />
+   - Implémentation d'un endpoint recherchant tout type de données sur la base de données.
+   - L'API devra s'adapter aux besoins de la deuxième étape.
 
-<img height="300" src="https://i.ibb.co/82zPHF6/Capture-d-e-cran-2019-10-15-a-16-11-28.png"/>
 
-Il n'y a donc pas de bouton submit, les resultat s'affiche directement sous la barre de recherche.
-Les resultats seront sous forme de boite avec la photo du super heroes et son prenom dessous celle-ci.
+#### Optionnel
+ - Système d'authentification qui doit vérifier
+    - l'utilisateur: `Luke`
+    - password: `DadSucks`
+ - L'utilisation d'[HAPI](https://hapi.dev/) car les développeur de la rébellion l'apprécie.
 
-<img height="300" src="https://i.ibb.co/94fKNm7/Capture-d-e-cran-2019-10-15-a-16-11-40.png"/>
 
-Par la suite, lorsque je clique sur un super-heros j'obtiens davantage d'information sur celui-ci. 
-Les informations du super-héro s'affichent sur une autre page, l'URL doit changer pour que je puisse accéder à la fiche du héro directement avec l'URL (pour pouvoir la partager, par exemple)
+### Etape 2
+#### Obligatoire
+ - Création d'un front-end en ReactJS permettant de rechercher facilement sur le back-end créé au préalable. <br/>
+   - Création d'un champ de recherche
+   - Création d'un affichage par liste des résultats avec le nom et l'image
+   - Création d'une fiche détaillant le résultat où sera présentée les informations de base
 
-<img height="300" src="https://i.ibb.co/jkWML6W/Capture-d-e-cran-2019-10-15-a-16-11-48.png"/>
+#### Optionnel
+ - Faire des fiches ultra détaillées
+   - Afficher des fiches differentes en fonction du type de donnée
+ - Implémentation d'un router
+   - Le router doit permettre d'accèder à n'importe quelle fiche
+   - Il peut permettre d'accèder directement au résultat d'une recherche
+ - Implémentation d'un système de filtre
+   - Mettre en place un système de filtre par type de donnée (personnage, vaisseau, ...)
+ - Mise en place d'un système d'authentification avec l'API
+ - Utilisation de Redux
+ - Utilisation du fonctionnel et de l'immutabilité
+ - Un debounce pour la recherche
+ - Mise en place de CSS modules
 
-Pour cet exercice: 
+#### Bonus
+Malgré les tensions entre l'Empire et le peuple Wookiee, il est étonnant de trouver dans leur base de données un moyen de traduire dans cette langue.
 
-- Tu dois utiliser React.
-- Tu peux utiliser une boilerplate, create-react-app, next.js, ou partir from scratch.
-- Tu peux utiliser d'autre modules/librairie (react-router, unfetch, ...)
-- Toute optimisation est bonne à prendre
-- Bonus s'il y a du CSS
-- Tu devras nous livrer le code source de l'exercice
-- Le endpoint de l'API pour la recherche est `v1/public/characters`
+ - Permettre d'afficher les résultats en Wookiee
 
+
+Attention, l'utilisation de [swapi-node](https://www.npmjs.com/package/swapi-node) est prohibée, car l'application est surveillée par l'empire. <br/>
+
+
+Afin que le service de renseignements de l'alliance puisse vérifier l'intégrité de votre code, il sera nécessaire de le rendre disponible sur un repo git accessible.
+
+## Conclusion
+Toute l'alliance Rebelle compte sur la réussite de cette mission.
+
+![May the force be with you](https://media.giphy.com/media/JDnaQ8qn0Myuk/200.gif)
