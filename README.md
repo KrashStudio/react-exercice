@@ -33,7 +33,7 @@ La base de données de l'Empire est accessible [à cette URL](https://swapi.dev/
 #### Obligatoire
  - Création d'un front-end en ReactJS permettant de rechercher facilement sur le back-end créé au préalable. <br/>
    - Création d'un champ de recherche
-   - Création d'un affichage par liste des résultats avec le nom et l'image
+   - Création d'un affichage par liste des résultats avec le nom
    - Création d'une fiche détaillant le résultat où sera présentée les informations de base
 
 #### Optionnel
