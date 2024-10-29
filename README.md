@@ -18,7 +18,7 @@ La base de données de l'Empire est accessible [à cette URL](https://swapi.dev/
 
 #### Obligatoire
  - Création d'un back-end en Node permettant de récupérer les données de SWAPI <br />
-   - Implémentation d'un endpoint recherchant tout type de données sur la base de données.
+   - Implémentation d'un endpoint recherchant sur toutes les catégories (types) en même temps.
    - L'API devra s'adapter aux besoins de la deuxième étape.
 
 
@@ -50,14 +50,7 @@ La base de données de l'Empire est accessible [à cette URL](https://swapi.dev/
  - Un debounce pour la recherche
  - Mise en place de CSS modules
 
-#### Bonus
-Malgré les tensions entre l'Empire et le peuple Wookiee, il est étonnant de trouver dans leur base de données un moyen de traduire dans cette langue.
-
- - Permettre d'afficher les résultats en Wookiee
-
-
 Attention, l'utilisation de [swapi-node](https://www.npmjs.com/package/swapi-node) est prohibée, car l'application est surveillée par l'empire. <br/>
-
 
 Afin que le service de renseignements de l'alliance puisse vérifier l'intégrité de votre code, il sera nécessaire de le rendre disponible sur un repo git accessible.
 
