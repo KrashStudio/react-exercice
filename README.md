@@ -10,7 +10,7 @@ C'est pourquoi nous avons décidé de vous confier une mission de la plus haute 
 Il s'agira, pour le bien de la rébellion, de créer une interface nous permettant de rechercher dans la banque de données de l'Empire.  <br/>
 L'un de nos espions a donné sa vie afin que nous puissions accéder à ces informations.
  
-La base de données de l'Empire est accessible [à cette URL](https://swapi.dev/).
+La base de données de l'Empire est accessible [à cette URL](https://swapi.info/).
 
 ## Objectifs de mission
 
